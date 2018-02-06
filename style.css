@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#code{
+    height: 50vh;
+    top: 0;
+    overflow: auto;
+    border: 1px solid gray;
+}
+
+.wrapper{
+    position: relative;
+    height: 50%;
+    margin-top: -15px;
+}
+
+@keyframes eyeballRoll{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-15px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.buttonWrapper{
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 5px;
+    padding: 10px;
+    background: white;
+}
+button.active{
+    box-shadow: 3px 3px 3px  gray;
+}
+button:focus{
+    outline: none;
+}
