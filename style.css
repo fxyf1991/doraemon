@@ -11,7 +11,7 @@ body{
 }
 
 #code{
-    height: 50vh;
+    height: 30vh;
     top: 0;
     overflow: auto;
     border: 1px solid gray;

@@ -345,15 +345,15 @@ var code = `/* 现在我们要开始画一只哆啦A梦 */
     background: white;
 }
 .rightLeg{
-     width: 86px;
-     height: 24px;
-     position: absolute;
-     top: 345px;
-     right: 50%;
-     margin-right: -87px;
-     border: 2px solid black;
-     border-radius: 10px;
-     background: white;
+    width: 86px;
+    height: 24px;
+    position: absolute;
+    top: 345px;
+    right: 50%;
+    margin-right: -87px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
  }
 .circle{
     width: 14px;
@@ -367,7 +367,8 @@ var code = `/* 现在我们要开始画一只哆啦A梦 */
     left: 50%;
     margin-left: -8px;
 }
-/* 最后把鼠标放到头上让哆啦A梦的眼珠动起来吧 */
+/* 最后把鼠标放到头上或手机点击屏幕
+ * 让哆啦A梦的眼珠动起来吧 */
 .head:hover .rightEyeball{
     animation: eyeballRoll 2s infinite linear;
 }
